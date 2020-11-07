@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BrawlinCampus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="char\b1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\f1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\k1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\k2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\k3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\k4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\p6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pk8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\pp7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\s1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bird.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bird2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bird3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\boy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\forest.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\girl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\monkey.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\path10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\smurf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tree2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tree3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\main_menu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\about.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\Instructions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\point_table.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\PointTable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\Capture.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\instructions1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char2.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\char6.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="char\charground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

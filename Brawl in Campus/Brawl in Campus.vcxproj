@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C341324-DD54-4DFF-8315-ED1873C85FD7}</ProjectGuid>
+    <RootNamespace>BrawlinCampus</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BrawlinCampus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="char\about.png" />
+    <Image Include="char\b1.png" />
+    <Image Include="char\Capture.PNG" />
+    <Image Include="char\char1.png" />
+    <Image Include="char\char2.PNG" />
+    <Image Include="char\char3.png" />
+    <Image Include="char\char4.png" />
+    <Image Include="char\char5.png" />
+    <Image Include="char\char6.PNG" />
+    <Image Include="char\charground.png" />
+    <Image Include="char\exit.png" />
+    <Image Include="char\f1.png" />
+    <Image Include="char\Instructions.png" />
+    <Image Include="char\instructions1.png" />
+    <Image Include="char\k1.png" />
+    <Image Include="char\k2.png" />
+    <Image Include="char\k3.png" />
+    <Image Include="char\k4.png" />
+    <Image Include="char\main_menu.png" />
+    <Image Include="char\p1.png" />
+    <Image Include="char\p2.png" />
+    <Image Include="char\p3.png" />
+    <Image Include="char\p4.png" />
+    <Image Include="char\p5.png" />
+    <Image Include="char\p6.png" />
+    <Image Include="char\pk1.png" />
+    <Image Include="char\pk2.png" />
+    <Image Include="char\pk3.png" />
+    <Image Include="char\pk4.png" />
+    <Image Include="char\pk5.png" />
+    <Image Include="char\pk6.png" />
+    <Image Include="char\pk7.png" />
+    <Image Include="char\pk8.png" />
+    <Image Include="char\play.png" />
+    <Image Include="char\PointTable.png" />
+    <Image Include="char\point_table.png" />
+    <Image Include="char\pp1.png" />
+    <Image Include="char\pp2.png" />
+    <Image Include="char\pp3.png" />
+    <Image Include="char\pp4.png" />
+    <Image Include="char\pp5.png" />
+    <Image Include="char\pp6.png" />
+    <Image Include="char\pp7.png" />
+    <Image Include="char\s1.png" />
+    <Image Include="images\bird.png" />
+    <Image Include="images\bird2.png" />
+    <Image Include="images\bird3.png" />
+    <Image Include="images\boy.png" />
+    <Image Include="images\forest.jpg" />
+    <Image Include="images\girl.bmp" />
+    <Image Include="images\monkey.png" />
+    <Image Include="images\path10.png" />
+    <Image Include="images\smurf.bmp" />
+    <Image Include="images\tree.png" />
+    <Image Include="images\tree2.png" />
+    <Image Include="images\tree3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h" />
+    <ClInclude Include="glaux.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="myheader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
